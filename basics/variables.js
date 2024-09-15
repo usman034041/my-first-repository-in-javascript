@@ -3,3 +3,4 @@ let accountemail="usmanirshad81@"
 // accountid=345
 console.log(accountid);
 accountpswd="4567"
+console.table([accountid,accountemail,accountpswd])
