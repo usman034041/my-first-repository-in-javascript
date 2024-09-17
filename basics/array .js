@@ -8,8 +8,10 @@ const myarray= [1,2,3,4,5,6]
 // console.log(afpop);
 // console.log(myarray);
 const arra3= ["usman" ,"irshad" ,"awan"]
-const arr4=myarray.push(arra3)
+const arr4=myarray.concat(arra3)
 console.log(arr4);
+console.log(myarray);
+
 
 // const myarray2=myarray.push(10)
 //  console.log(myarray2);
