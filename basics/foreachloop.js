@@ -54,4 +54,21 @@ const afterreturn = arr.filter( (items) => items.name == "usman");
     // return console.log(items.name , items.lastname);
     
 
-console.log(afterreturn);
+// console.log(afterreturn);
+// +++++++++++++++++++++++++++++++++++++++++++++++ HOW TO USE REDUCE Function  ++++++++++++++++++++++++++++++++++++++++++++
+const usereducefunction=[{
+itemname : "social science" ,
+    price : 200
+},
+{
+itemname : "social criminology" ,
+    price : 2000
+},
+{
+itemname : "enviromental science " ,
+    price : 300000
+},
+
+]
+const total=usereducefunction.reduce((acc , items)=> acc + items.price , 0)
+console.log(total);
