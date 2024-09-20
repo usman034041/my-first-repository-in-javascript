@@ -14,6 +14,6 @@
 // let var1 ;
 // var1=undefined ?? null ?? 10
 // console.log(var1);
-const price=100
-price<=80 ? console.log("price is less than 80"):console.log("price more then 80");
+const priceofsuger=100
+priceofsuger<=80 ? console.log("priceofsuger is less than 80"):console.log("priceofsuger more then 80");
 ;
